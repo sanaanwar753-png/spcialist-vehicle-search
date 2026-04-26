@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Search</title>
+    <link rel="icon" href="logos/icon.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+ 
+    <nav>
+        <img src="logos/logo.jpg" alt="logo" class="logo-img">   
+        <ul>
+            <li><a href="#popular">Popular</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+ 
+    <header class="hero">
+        <h1>Buy your dream car</h1>
+        <p>Choose from thousands of vehicles</p>
+ 
+        <section id="search-box">
+            <form id="form">
+                <label for="search" class="sr-only">Search Model</label>
+                <input type="text" id="search" placeholder="Search make or model">
+ 
+                <label for="fuel" class="sr-only">Fuel Type</label>
+                <select id="fuel">
+                    <option value="">Any Fuel</option>
+                    <option>Petrol</option>
+                    <option>Diesel</option>
+                    <option>Electric</option>
+                    <option>Hybrid</option>
+                </select>
+                <label for="year" class="sr-only">Minimum Year</label>
+                <input type="number" id="year" placeholder="Min Year">
+                <label for="minPrice" class="sr-only">Minimum Price</label>
+                <input type="number" id="minPrice" placeholder="Min Price">
+                <label for="maxPrice" class="sr-only">Maximum Price</label>
+                <input type="number" id="maxPrice" placeholder="Max Price">
+
+ 
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </header>
+    <main id="main-content">
+        <section id="results" aria-live="polite"></section>
+    </main>
+
+    
+    <section id="popular" class="info-section">
+        <h2>Popular Vehicles</h2>
+        <p>Check out our most requested vehicles!</p>
+    </section>
+
+    <section id="services" class="info-section">
+        <h2>Our Services</h2>
+        <p>Discover the range of services we offer to meet all your vehicle needs!</p>
+    </section>
+
+    <!--Why choose us section-->
+    <section class="features">
+        <h2>Why Choose Specialist Vehicle?</h2>
+        <div class="features-cards">
+            <div class="card">
+                <div class="icon">✓</div>
+                <h3>Trusted Vehicles</h3>
+                <p>All vehicles are thoroughly inspected and verified for quality and safety.</p>
+            </div>
+            <div class="card">
+                <div class="icon">✓</div>
+                <h3>Great Prices</h3>
+                <p>No hidden fees or surprise charges. What you see is what you pay.</p>
+            </div>
+            <div class="card">
+                <div class="icon">✓</div>
+                <h3>Customer Support</h3>
+                <p>Our dedicated support team is here to assist you every step of the way.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Brands section-->
+    <section class="brands">
+        <h2>Top Brands</h2>
+        <div class="brand-logos">
+            <div class="brand-item">
+                <img src="logos/audi.jpg" alt="Audi Logo">
+                <span>Audi</span>
+            </div>
+            <div class="brand-item">
+                <img src="logos/mercedes.jpg" alt="Mercedes Logo">
+                <span>Mercedes</span>
+            </div>
+            <div class="brand-item">
+                <img src="logos/bmw.jpg" alt="BMW Logo">
+                <span>BMW</span>
+            </div>
+            <div class="brand-item">
+                <img src="logos/toyota.jpg" alt="Toyota Logo">
+                <span>Toyota</span>
+            </div>
+             <div class="brand-item">
+                <img src="logos/ford.jpg" alt="Ford Logo">
+                <span>Ford</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review-cards">
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"I found my dream car thanks to Specialist Vehicle Search! The process was smooth and the customer service was excellent."</p>
+                <span> Sarah M.</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★☆</div>
+                <p>"Great selection of vehicles and fantastic prices. I highly recommend Specialist Vehicle Search to anyone looking for a new car."</p>
+                <span> John D.</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"The team at Specialist Vehicle Search was incredibly helpful and made the car buying experience enjoyable and stress-free."</p>
+                <span> Emily R.</span>
+            </div>
+        </div>
+
+    </section>
+
+ 
+    <footer id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: info@specialistvehiclesearch.com</p>
+        <p>&copy; 2026 Specialist Vehicle Search. All rights reserved.</p>
+    </footer>
+
+    <script src="vehicles.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+let vehicles = [
+  {make: "Honda", model:"Civic", year:2019, colour:"White", fuel:"Petrol", price: 15000, image: "images/honda.jpg"},
+  {make: "BMW", model:"3 Series", year:2021, colour:"Black", fuel:"Petrol", price: 35000, image: "images/bmw.jpg"},
+  {make: "Audi", model:"A3", year:2025, colour:"Black", fuel:"Petrol", price: 30000, image: "images/audi.jpg"},
+  {make: "Nissan", model:"Leaf", year:2021, colour:"Grey", fuel:"Electric", price: 25000, image: "images/nissan.jpg"},
+  {make: "Ford", model:"Focus", year:2018, colour:"Blue", fuel:"Diesel", price: 12000, image: "images/ford.jpg"},
+  {make: "Tesla", model:"Model 3", year:2022, colour:"White", fuel:"Electric", price: 45000, image: "images/tesla.jpg"},
+  {make: "Kia", model:"Sportage", year:2020, colour:"Black", fuel:"Diesel", price: 20000, image: "images/kia.jpg"},
+  {make: "Toyota", model:"Camry", year:2021, colour:"White", fuel:"Petrol", price: 25000, image: "images/toyota.jpg"},
+  {make: "Hyundai", model:"Elantra", year:2019, colour:"Blue", fuel:"Petrol", price: 18000, image: "images/hyundai.jpg"},
+  {make: "Volkswagen", model:"Golf", year:2020, colour:"Grey", fuel:"Diesel", price: 22000, image: "images/vw.jpg"},
+  {make: "Mercedes-Benz", model:"C-Class", year:2022, colour:"White", fuel:"Petrol" , price: 40000, image: "images/mercedes.jpg"},
+  {make: "Subaru", model:"Outback", year:2021, colour:"Blue", fuel:"Petrol", price: 28000, image: "images/subaru.jpg"},
+  {make: "Mazda", model:"CX-5", year:2020, colour:"Black", fuel:"Diesel", price: 24000, image: "images/mazda.jpg"},
+  {make: "Jaguar", model:"XE", year:2021, colour:"Grey", fuel:"Petrol", price: 35000, image: "images/jaguar.jpg"},
+  {make: "Mini", model:"Cooper", year:2020, colour:"White", fuel:"Petrol", price: 16000, image: "images/mini.jpg"},
+  {make: "Land Rover", model:"Range Rover", year:2020, colour:"Black", fuel:"Diesel", price: 55000, image: "images/landrover.jpg"},
+  {make: "Peugeot", model:"308", year:2018, colour:"Grey", fuel:"Diesel", price: 14000, image: "images/peugeot.jpg"},
+  {make: "Porsche", model:"911", year:2020, colour:"Black", fuel:"Petrol", price: 60000, image: "images/porsche.jpg"},
+  {make: "Volvo", model:"XC40", year:2021, colour:"Black", fuel:"Hybrid", price: 35000, image: "images/volvo.jpg"},
+  {make: "Skoda", model:"Octavia", year:2020, colour:"Silver", fuel:"Diesel", price: 22000, image: "images/skoda.jpg"}
+];
