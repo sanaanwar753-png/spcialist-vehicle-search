@@ -97,3 +97,4 @@ form.addEventListener("submit", function(e) {
   showVehicles(filtered);
  
 });
+
